@@ -7,7 +7,7 @@
 <script>
 export default {
 
-name:paginaComponent
+name:"paginaComponent"
 
 };
 </script>

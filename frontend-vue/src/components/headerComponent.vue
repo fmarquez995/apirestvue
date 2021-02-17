@@ -8,13 +8,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <router-link to="/home">Inicio </router-link>
+                <router-link to="/home" class="nav-link">Inicio </router-link>
             </li>
             <li class="nav-item">
-                <router-link to="/blogComponent">Blog </router-link>
+                <router-link to="/blogComponent" class="nav-link">Blog </router-link>
             </li>
             <li class="nav-item">
-                <router-link to="/formularioComponent">Formulario</router-link>
+                <router-link to="/formularioComponent" class="nav-link">Formulario</router-link>
             </li>
         </ul>
         <ul class="navbar-nav">

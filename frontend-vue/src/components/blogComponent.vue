@@ -6,6 +6,6 @@
 
 <script>
 export default {
-name:blogComponent
+name:"blogComponent"
 };
 </script>
