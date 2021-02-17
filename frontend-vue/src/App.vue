@@ -1,19 +1,33 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <headerComponent> </headerComponent>
+    <SliderComponent> </SliderComponent>
+    <div class="center">
+      <sidebar-component> </sidebar-component>
+      <router-view></router-view>
+      <!-- <CentralComponent> </CentralComponent>-->
+    </div>
+    <FooterComponent> </FooterComponent>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import headerComponent from "./components/headerComponent.vue";
+import SliderComponent from "./components/SliderComponent.vue";
+import SidebarComponent from "./components/SidebarComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
+
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    headerComponent,
+    SliderComponent,
+    SidebarComponent,
+    FooterComponent,
+
+  },
+};
 </script>
 
 <style>
